@@ -1,9 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
 header {
   width: 100vw;
+  color: #fff;
+  min-height: 100px;
+  max-height: 16vh;
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3);
+  padding: 15px 20px;
 }
 
 .logo {
@@ -11,4 +25,23 @@ header {
   border-radius: 50%;
   padding: 3px;
   max-height: 90px;
+}
+
+.header--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.header--text h1 {
+  height: auto;
+  margin: 0;
+  padding: 5px;
+}
+
+.header--text h4 {
+  margin-top: 0;
+  font-weight: 300;
 }

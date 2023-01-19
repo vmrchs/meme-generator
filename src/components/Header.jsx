@@ -5,7 +5,10 @@ export default function Header() {
   return (
     <header>
       <MeGusta className="logo" />
-      <h1>Meme Machine</h1>
+      <div className="header--text">
+        <h1>Meme Machine</h1>
+        <h4>React Course - Project 3</h4>
+      </div>
     </header>
   );
 }
