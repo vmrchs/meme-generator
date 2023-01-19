@@ -1,0 +1,14 @@
+header {
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  background-color: white;
+  border-radius: 50%;
+  padding: 3px;
+  max-height: 90px;
+}
