@@ -77,12 +77,11 @@ main {
 
 .meme {
   position: relative;
-  margin-top: 1.5rem;
 }
 
 .meme--image {
   max-width: 100%;
-  border-radius: 0.5rem;
+  border-radius: 3px;
 }
 
 .meme--text {
@@ -110,6 +109,5 @@ main {
 .top {
   top: 0;
 }
-
 /* Ternary */
 /* let answer = isGoingOut === true ? "Yes" : "No" */
